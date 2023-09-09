@@ -6,7 +6,7 @@
 
 ## ⚙️Install
 > Put your discord bot token at config.json\
-> Run the index.js
+> Run start.bat
 
 ### my growdice limbo helper project
 https://github.com/baris1337/growdice-limbo-assistant
