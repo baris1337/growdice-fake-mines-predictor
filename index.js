@@ -33,13 +33,16 @@ client.on("messageCreate", (message) => {
 	const mines = args.shift().toLowerCase();
     const seed = args.slice(-8)
 
+  if (message.author.id != '632528514960064532' && message.author.id != '1104087050870853703')
+  return;
+
     if (message.content.startsWith(".mines")) {
 if (message.content == ".mines"){
     message.reply("Usage: `.mines` `mine count` `seed`")
     return true;
 } 
 
-        if (message.author.id != "owner id") { //github.com/baris1337
+        if (message.author.id != "632528514960064532") { //github.com/baris1337
             let now = Date.now();
 
             if (cooldown.has(message.author.id)) {
@@ -192,7 +195,7 @@ if (message.content == ".mines"){
             value:  " "
         });
 
-        message.channel.send({
+        message.author.send({
             embeds: [embed]
         });
     };
