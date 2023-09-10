@@ -12,5 +12,5 @@
 https://github.com/baris1337/growdice-limbo-assistant
 
 ### join discord server
-https://discord.gg/2J7rUeJCzT
+https://discord.gg/uMjQDVEz57
 
