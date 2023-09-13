@@ -11,6 +11,4 @@
 ### my growdice limbo helper project
 https://github.com/baris1337/growdice-limbo-assistant
 
-### join discord server
-https://discord.gg/uMjQDVEz57
 
